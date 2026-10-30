@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="International news and global developments."
+    />
+    <meta
+      name="keywords"
+      content="world news, politics, environment, global affairs"
+    />
+    <title>Daily News | World</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header id="top" class="site-header">
+      <h1>World News</h1>
+      <p>Understand the events shaping our world.</p>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="world.html">World</a></li>
+          <li><a href="technology.html">Technology</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section id="international" class="section">
+        <h2>International Headlines</h2>
+        <article class="news-card">
+          <h3>Global Leaders Discuss Cooperation</h3>
+          <img
+            src="https://placehold.co/700x350?text=World+News"
+            alt="Illustration of a world news report"
+            width="700"
+            height="350"
+          />
+          <p>
+            Countries continue to discuss cooperation on trade, security, and
+            public services.
+          </p>
+          <p>
+            <strong>Key point:</strong> International cooperation can affect
+            communities around the world.
+          </p>
+          <p><em>Illustrative example, not a current news report.</em></p>
+        </article>
+
+        <article class="news-card">
+          <h3>Environment and Climate</h3>
+          <p>
+            Environmental research helps communities understand changing weather
+            patterns and protect natural resources.
+          </p>
+          <p>
+            Read more about the <a href="#environment">environment section</a>.
+          </p>
+        </article>
+      </section>
+
+      <hr />
+
+      <section id="environment" class="section">
+        <h2>Environment</h2>
+        <article class="news-card">
+          <h3>Protecting Natural Resources</h3>
+          <p>
+            Clean water, represented by H<sub>2</sub>O, is essential for life.
+            Scientists study greenhouse gases such as CO<sub>2</sub>.
+          </p>
+          <p>
+            Learn the facts before sharing a story.
+            <mark>Check the source</mark> and the publication date.
+          </p>
+          <p>
+            <small
+              >Environmental information should be verified with trusted
+              scientific sources.</small
+            >
+          </p>
+        </article>
+      </section>
+
+      <section id="regions" class="section">
+        <h2>News by Region</h2>
+        <ul>
+          <li>
+            North America
+            <ul>
+              <li>United States</li>
+              <li>Canada</li>
+              <li>Mexico</li>
+            </ul>
+          </li>
+          <li>
+            Europe
+            <ul>
+              <li>Western Europe</li>
+              <li>Eastern Europe</li>
+            </ul>
+          </li>
+          <li>
+            Asia
+            <ul>
+              <li>South Asia</li>
+              <li>East Asia</li>
+              <li>Central Asia</li>
+            </ul>
+          </li>
+        </ul>
+
+        <h3>How to Evaluate an International Story</h3>
+        <ol>
+          <li>Identify the original source.</li>
+          <li>Compare reports from different outlets.</li>
+          <li>Check dates, evidence, and context.</li>
+        </ol>
+      </section>
+
+      <section id="coverage" class="section">
+        <h2>Regional Coverage</h2>
+        <table border="1">
+          <caption>
+            Example Editorial Coverage Plan
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Region</th>
+              <th scope="col">Focus</th>
+              <th scope="col">Desk</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>North America</td>
+              <td>Public Affairs</td>
+              <td>Desk A</td>
+            </tr>
+            <tr>
+              <td>Europe</td>
+              <td>Economy</td>
+              <td>Desk B</td>
+            </tr>
+            <tr>
+              <td rowspan="2">Asia</td>
+              <td>Science</td>
+              <td>Desk C</td>
+            </tr>
+            <tr>
+              <td>Environment</td>
+              <td>Desk D</td>
+            </tr>
+            <tr>
+              <td colspan="2">Total Regional Desks</td>
+              <td>4</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3">This is a sample editorial plan.</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+
+      <section id="reader-feedback" class="section">
+        <h2>Suggest a World News Topic</h2>
+        <form action="#" method="get">
+          <fieldset>
+            <legend>Topic Suggestion</legend>
+
+            <label for="reader-name">Your Name:</label>
+            <input
+              type="text"
+              id="reader-name"
+              name="name"
+              placeholder="Enter your name"
+            />
+
+            <label for="region">Choose a Region:</label>
+            <select id="region" name="region">
+              <option value="">Select a region</option>
+              <option value="north-america">North America</option>
+              <option value="europe">Europe</option>
+              <option value="asia">Asia</option>
+              <option value="africa">Africa</option>
+            </select>
+
+            <label for="topic">Your Topic:</label>
+            <textarea
+              id="topic"
+              name="topic"
+              rows="5"
+              placeholder="Suggest a news topic"
+            ></textarea>
+
+            <button type="submit" value="send">Send Suggestion</button>
+          </fieldset>
+        </form>
+      </section>
+
+      <section class="section">
+        <h2>World News Audio</h2>
+        <audio controls>
+          <source src="media/world-news.mp3" type="audio/mpeg" />
+          Your browser does not support audio.
+        </audio>
+      </section>
+
+      <div class="notice" data-page="world">
+        <p>
+          <span class="highlight">Remember:</span> Breaking news can change as
+          verified information becomes available.
+        </p>
+      </div>
+
+      <noscript>
+        <p>Enable JavaScript to use interactive page features.</p>
+      </noscript>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Daily News | World Desk</p>
+      <a href="#top" title="Return to the top">Back to top</a>
+    </footer>
+  </body>
+</html>

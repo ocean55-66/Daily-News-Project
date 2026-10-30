@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Latest news, breaking stories, and trusted journalism."
+    />
+    <meta
+      name="keywords"
+      content="news, breaking news, world news, technology"
+    />
+    <meta name="author" content="Daily News" />
+    <title>Daily News | Home</title>
+    <link rel="icon" href="images/news-icon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header id="top" class="site-header">
+      <h1 title="Welcome to Daily News">Daily News</h1>
+      <p>Your trusted source for <strong>breaking news</strong></p>
+      <nav aria-label="main navigation">
+        <ul class="nav-list">
+          <li><a href="./index.html" title="Home page">Home</a></li>
+          <li><a href="./world.html" title="World news">World</a></li>
+          <li>
+            <a href="./tecnology.html" title="Technology news">Technology</a>
+          </li>
+          <li><a href="contact.html" title="Contact us">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main-content" class="container">
+      <section id="breaking news" class="section featured-section">
+        <h2>Breaking News</h2>
+        <article class="news-card featured">
+          <h3>Major Developments Around the World</h3>
+          <img
+            src="https://placehold.co/800x100?text=Breaking+News"
+            alt="News reporters covering a major event"
+            width="800"
+            height="100"
+            title="Breaking news coverage"
+          />
+          <p>
+            Stay informed about the latest events.
+            <mark>Important updates</mark> are published throughout the day.
+          </p>
+          <p><em>Updated every day </em> for our readers.</p>
+          <a href="./world.html">Read world news</a>
+        </article>
+      </section>
+      <hr />
+      <section id="latest-news" class="section">
+        <h2>Latest Headlines</h2>
+        <article class="news-card">
+          <h3>Technology Is Changing Dalily Life</h3>
+          <p>
+            Discover new inventions , digital tools, and scientific progress.
+          </p>
+          <a href="./technology.html">Read more</a>
+        </article>
+
+        <article class="news-card">
+          <h3>Today's News Summary</h3>
+          <p>
+            Read our daily summary in just five minutes.<br />
+            Get the essential facts in one place.
+          </p>
+          <p>Published on October 22 <sup>nd</sup>, 2026</p>
+          <p>Water's chemical formula is H<sub>2</sub>O.</p>
+          <p>
+            <small
+              >News reports may be updated as new facts become available.</small
+            >
+          </p>
+        </article>
+      </section>
+
+      <section id="popular-topics" class="section">
+        <h2>Popular Topics</h2>
+        <ul>
+          <li>
+            World News
+            <ul>
+              <li>Politics</li>
+              <li>Environment</li>
+              <li>International Affairs</li>
+            </ul>
+          </li>
+          <li>
+            Technology
+            <ul>
+              <li>Artificial Intelligence</li>
+              <li>Cybersecurity</li>
+            </ul>
+          </li>
+        </ul>
+        <h3>How to Follow the News</h3>
+
+        <ol>
+          <li>Choose a news category.</li>
+          <li>Read the full article.</li>
+          <li>Check the facts and sources.</li>
+        </ol>
+      </section>
+
+      <h2>News Statistics</h2>
+      <section id="news-statistics">
+        <table border="1">
+          <caption>
+            Our Daily News Coverage
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Category</th>
+              <th scope="col">Articles</th>
+              <th scope="col">Status</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>World</td>
+              <td>25</td>
+              <td>Updated</td>
+            </tr>
+            <tr>
+              <td>Technology</td>
+              <td>15</td>
+              <td>Updated</td>
+            </tr>
+
+            <tr>
+              <td colspan="2">Total Articles</td>
+              <td>40</td>
+            </tr>
+
+            <tr>
+              <td rowspan="2">News Desk</td>
+              <td>Morning</td>
+              <td>Published</td>
+            </tr>
+
+            <tr>
+              <td>Evening</td>
+              <td>Scheduled</td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr>
+              <td colspan="3">Coverage figures are sample data.</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+
+      <section id="newsletter" class="section">
+        <h2>Subscribe to Our Newsletter</h2>
+        <form action="#" method="get">
+          <fieldset>
+            <legend>Newsletter Subscription</legend>
+            <label for="subscriber-name">Full Name:</label>
+            <input
+              type="text"
+              id="subsriber-name"
+              name="name"
+              placeholder="Enter your name"
+              required
+            />
+            <label for="subscriber-email">Email Address:</label>
+            <input
+              type="email"
+              id="subscriber-email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+            <button type="submit" value="subsribe">Subscribe</button>
+          </fieldset>
+        </form>
+      </section>
+
+      <section class="section">
+        <h2>Listen to Our News</h2>
+        <audio controls>
+          <source src="media/news-audio.mp3" type="/mpeg" />
+          Your browser does not support audio.
+        </audio>
+
+        <h2>Watch Our News Reprot</h2>
+
+        <video
+          controls
+          width="400"
+          height="200"
+          poster="images/news-poster.jpg"
+        >
+          <source src="media/news-video.mp4" type="video=mp4" />
+          <track
+            src="media/caption-en.vtt"
+            kind="captions"
+            srclang="en"
+            label="English"
+          />
+          your browser does not support video
+        </video>
+      </section>
+
+      <section class="section">
+        <h2>Visit Our News Channel</h2>
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/ScMzIvxBSi4"
+          title="News video player"
+          width="400"
+          height="225"
+          loading="lazy"
+          allowfullscreen
+        ></iframe>
+      </section>
+
+      <div class="notice notice-highlight" data-category="announcement">
+        <p>
+          <span class="highlight">Reader notice:</span> Verify important news
+          with multiple reliable sources.
+        </p>
+      </div>
+
+      <noscript>
+        <p>JavaScript is disabled. Some interactive features may not work.</p>
+      </noscript>
+    </main>
+    <footer class="site-footer">
+      <p>&copy; 2026 Daily News. All rights reserved.</p>
+      <a href="#top">Back to top</a>
+      <!-- This is the footer of the home page. -->
+    </footer>
+  </body>
+</html>

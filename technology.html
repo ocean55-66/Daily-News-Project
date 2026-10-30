@@ -1,0 +1,161 @@
+<!doctype thml>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Technology, AI, cybersecurity, software"
+    />
+    <title>Daily News | Technology</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header id="top" class="site-header">
+        <h1>Contact Daily News</h1>
+        <p>Get in touch with our newsroom.</p>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="world.html">World</a></li>
+                <li><a href="technology.html">Technology</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="about-us" class="section">
+            <h2>About Our Newsroom</h2>
+            <article class="news-card">
+                <h3>Our Mission</h3>
+                <img src="https://placehold.co/700x300?text=Our+Newsroom"
+                     alt="Illustration of a newsroom"
+                     width="700" height="300">
+                <p>Our mission is to share useful information and help readers
+                    understand important events.</p>
+                <p>We value <strong>accuracy</strong>, <em>fairness</em>,
+                    and responsible reporting.</p>
+                <p><mark>Corrections matter.</mark> We aim to update stories when
+                    reliable new information becomes available.</p>
+                <p><small>This is a fictional educational news website.</small></p>
+            </article>
+        </section>
+
+        <hr>
+
+        <section id="editorial-team" class="section">
+            <h2>Our Editorial Team</h2>
+            <ul>
+                <li>Editorial Department
+                    <ul>
+                        <li>Editor-in-Chief</li>
+                        <li>News Editors</li>
+                    </ul>
+                </li>
+                <li>Reporting Department
+                    <ul>
+                        <li>World News Reporters</li>
+                        <li>Technology Reporters</li>
+                    </ul>
+                </li>
+                <li>Reader Services
+                    <ul>
+                        <li>Reader Feedback</li>
+                        <li>Corrections and Suggestions</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h3>How to Contact the Newsroom</h3>
+            <ol>
+                <li>Complete the contact form.</li>
+                <li>Provide accurate contact information.</li>
+                <li>Describe your question or news tip clearly.</li>
+            </ol>
+        </section>
+
+        <section id="contact-details" class="section">
+            <h2>Contact Information</h2>
+            <p>Email: <a href="mailto:news@example.com">news@example.com</a></p>
+            <p>Website: <a href="index.html">Daily News Home</a></p>
+            <p>Office hours: Monday to Friday, 9:00 AM to 5:00 PM.</p>
+        </section>
+
+        <section id="contact-form-section" class="section">
+            <h2>Send Us a Message</h2>
+            <form action="#" method="get">
+                <fieldset>
+                    <legend>Contact Form</legend>
+
+                    <label for="full-name">Full Name:</label>
+                    <input type="text" id="full-name" name="fullName"
+                           placeholder="Enter your full name" required>
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email"
+                           placeholder="Enter your email address" required>
+
+                    <label for="subject">Message Subject:</label>
+                    <select id="subject" name="subject" required>
+                        <option value="">Select a subject</option>
+                        <option value="feedback">General Feedback</option>
+                        <option value="correction">Correction Request</option>
+                        <option value="news-tip">News Tip</option>
+                        <option value="technical">Technical Issue</option>
+                    </select>
+
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="6"
+                              placeholder="Write your message here" required></textarea>
+
+                    <label for="permission">
+                        <input type="checkbox" id="permission" name="permission"
+                               value="agree" required>
+                        I agree to submit this message.
+                    </label>
+
+                    <button type="submit" value="send">Send Message</button>
+                    <button type="reset" value="reset">Clear Form</button>
+                </fieldset>
+            </form>
+        </section>
+
+        <section id="office-location" class="section">
+            <h2>Our Location</h2>
+            <p>Use the map below to explore a sample map location.</p>
+            <iframe
+                src="https://www.openstreetmap.org/export/embed.html?bbox=-0.13%2C51.50%2C-0.10%2C51.52&layer=mapnik"
+                title="Sample map location"
+                width="400" height="300"
+                loading="lazy"></iframe>
+        </section>
+
+        <section id="accessibility" class="section">
+            <h2>Accessibility and Reader Support</h2>
+            <article class="news-card">
+                <h3>Our Commitment</h3>
+                <p>We aim to provide accessible navigation, descriptive image text,
+                    readable content, and clearly labeled form fields.</p>
+                <p>For assistance, contact our team by email.</p>
+            </article>
+        </section>
+
+        <div class="notice" data-category="contact">
+            <p><span class="highlight">Please note:</span> Do not include passwords
+                or other sensitive information in your message.</p>
+        </div>
+
+        <noscript>
+            <p>JavaScript is disabled. The basic contact page remains available.</p>
+        </noscript>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Daily News. All rights reserved.</p>
+        <a href="#top" title="Return to the top of the page">Back to top</a>
+        <!-- Thank you for contacting Daily News. -->
+    </footer>
+  </head>
+</html>
